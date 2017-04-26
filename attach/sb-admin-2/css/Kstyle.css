@@ -1,0 +1,529 @@
+@font-face {
+    font-family: DSN_LardPhrao;
+    src: url('../fonts/DSN_LardPhrao.eot');
+	src:url('../fonts/DSN_LardPhrao.eot?iefix') format('embedded-opentype'),
+        url('../fonts/DSN_LardPhrao.woff') format("woff"),
+        url('../fonts/DSN_LardPhrao.ttf') format("truetype"),
+        url('../fonts/DSN_LardPhrao.svg#family:DSN_LardPhrao') format("svg");
+}
+@font-face {
+	font-family: THSarabunENG;
+    src: url('../fonts/DSN_LardPhrao.eot');
+	src:url('../fonts/THSarabunENG.eot?iefix') format('embedded-opentype'),
+        url('../fonts/THSarabunENG.woff') format("woff"),
+        url('../fonts/THSarabunENG.ttf') format("truetype"),
+        url('../fonts/THSarabunENG.svg#family:THSarabunENG') format("svg");
+}
+
+.ButtonGroup
+{
+	margin-bottom:10px;
+	text-align:right;
+}
+.LabelForm
+{
+	display: inline-block;
+	color:#666;
+	font-family: DSN_LardPhrao;
+	font-size:22px;
+	margin-top:5px;
+	border-radius:5px;
+}
+.LabelFormColor
+{
+	display: inline-block;
+	color:#FFF;
+	font-family: DSN_LardPhrao;
+	font-size:22px;
+	margin-top:5px;
+	border-radius:5px;
+	padding:5px;
+}
+.report{
+	padding: 1px;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #0099FF;
+	text-align: center;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+.reportread{
+	padding: 1px;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #7C3D98;
+	text-align: center;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+.registry{
+	padding: 3px;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #999999;
+	text-align: center;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+.namehospitalpage{
+	font-size:24px;
+	text-align:center;
+	color:#FFF;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#099;
+}
+#ViewDivDetail{
+	padding:5px;
+	font-size:14px;
+	float:left;
+	width:95%;
+	margin-left:10px;
+	margin-right:10px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #E9E9E9;
+	position:relative;
+}
+.ViewDivLabel{
+	width:200px;
+	position:relative;
+	float:left;
+	text-align:right;
+	padding-right: 10px;
+}
+#ViewDivDetail2{
+	padding:5px;
+	font-family: THSarabunENG;
+	font-size:16pt;
+	float:left;
+	width:95%;
+	margin-left:10px;
+	margin-right:10px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	position:relative;
+}
+.ViewDivLabel2{
+	font-family: THSarabunENG;
+	width:200px;
+	position:relative;
+	float:left;
+	text-align:right;
+	padding-right: 10px;
+}
+.Headerpage{
+	background-color:#09C;
+	color:#FFF;
+	padding:10px;
+}
+.Hosname{
+	background-color:#FFF;
+	color:#666;
+	padding:10px;
+	float:right;
+	border-radius:5px;
+}
+.OldCase{
+	background-color:#953163;
+	color:#FFF;
+	padding:10px;
+	float:left;
+	border-radius:5px;
+	font-size:17px;
+	margin:10px;
+	position:relative;
+}
+.OldCase li{
+	color:#FFF;
+}
+.SN{
+	background-color:#09C;
+	color:#FFF;
+	padding:10px;
+	float:left;
+	border-radius:5px;
+	border-color:09C;
+	font-size:24px;
+	margin:10px;
+	position:relative;
+	cursor:pointer;
+}
+.SN:hover{
+	background-color:#55D5FF;
+}
+.PrintButton{
+	background-color:#999;
+	color:#FFF;
+	padding:10px;
+	float:left;
+	border-radius:5px;
+	border-color:09C;
+	font-size:24px;
+	margin:10px;
+	position:relative;
+	cursor:pointer;
+}
+.PrintButton:hover{
+	background-color:#666;
+}
+.highlight{
+	padding:5px;
+	margin-left:10px;
+	border-radius:5px;
+	color:#333;
+	font-size:17px;
+	float:left;
+	width:97%;
+	border: thin solid #09C;
+}
+.highlight .detail{
+	padding:10px;
+	margin:10px;
+	float:left;
+	position:relative;
+	border-radius:5px;
+	background-color:#E6F0FF;
+	color:#333;
+}
+.highlight .wantdate{
+	padding:5px;
+	float:left;
+	position:relative;
+	border-radius:5px;
+	background-color:#C33;
+	color:#FFF;
+	text-align:center;
+	margin:10px;
+}
+.highlight2{
+	padding:15px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:5px;
+	color:#333;
+	height:auto;
+	font-size:15px;
+	float:left;
+	clear:both;
+	width:97%;
+	border: thin solid #DCBEDC;
+	
+}
+/* FormPrint */
+
+
+#FormPrint_main{
+	width:21cm;
+	height:29.7cm;
+	/*border: medium solid #FFF;*/
+    font-family: THSarabunENG;
+	font-size:16pt;
+	line-height:15pt;
+	background-color:#FFF;
+	padding:1.5cm;
+}
+#FormPrint_main .logo{
+	clear:both;
+}
+#FormPrint_main .footer{
+	float:left;
+	clear:both;
+	position:absolute;
+	bottom:1cm;
+	width:680.3px;
+	font-size:14pt;
+}
+#FormPrint_main .footer img{
+	float:left;
+	padding-right:0.3cm;
+}
+#FormPrint_main .header{
+	width:100%;
+	margin-bottom:1cm;
+	text-align:center;
+}
+#FormPrint_main .title{
+	margin-top:0.5cm;
+	font-size:26pt;
+	font-weight:bold;
+}
+#FormPrint_main .subtitle{
+	margin-top:0.3cm;
+	font-size:20pt;
+}
+#FormPrint_main .detailtitle{
+	margin-top:0.1cm;
+	font-size:16pt;
+}
+#FormPrint_main .textbox{
+	float:left;
+	clear:both;
+	margin-bottom:0.5cm;
+}
+#FormPrint_main .sb_doctor{
+	position: absolute;
+	margin-top: -0.2cm;
+	margin-left: 3.4cm;
+}
+#FormPrint_main .sb_department{
+	position: absolute;
+	margin-top: -0.2cm;
+	margin-left: 12.5cm;
+}
+#FormPrint_main .sb_hospital{
+	position: absolute;
+	margin-top: 0.8cm;
+	margin-left: 2.2cm;
+}
+#FormPrint_main .sb_tel{
+	position: absolute;
+	margin-top: 0.8cm;
+	margin-left: 11.9cm;
+}
+#FormPrint_main .sb_type{
+	position: absolute;
+	margin-top: 1.85cm;
+	margin-left: 2.2cm;
+}
+#FormPrint_main .sb_for{
+	position: absolute;
+	margin-top: 2.9cm;
+	margin-left: 1.1cm;
+}
+#FormPrint_main .sb_for{
+	position: absolute;
+	margin-top: 2.9cm;
+	margin-left: 1.1cm;
+}
+#FormPrint_main .sb_patient{
+	position: absolute;
+	margin-top: 3.9cm;
+	margin-left: 1.7cm;
+}
+#FormPrint_main .sb_SN{
+	position: absolute;
+	margin-top: 3.9cm;
+	margin-left: 12.7cm;
+	font-size:20pt;
+}
+#FormPrint_main .sb_sendtype{
+	position: absolute;
+	margin-top: 4.9cm;
+	margin-left: 2.7cm;
+}
+
+
+#FormPrint_main .Remark{
+	padding-top:0.3cm;
+	margin-left:0.3cm;
+	text-align:center;
+	float:left;
+}
+#FormPrint_main .SignPatho{
+	padding-top:1cm;
+	padding-right:1cm;
+	text-align:center;
+	float:right;
+}
+#FormPrint_main .PrintDate{
+	text-align:right;
+}
+
+
+
+
+
+
+#FormPrint_main .no{
+	position: absolute;
+	padding:5px;
+	top: 1cm;
+	left: 10.5cm;
+}
+#FormPrint_main .namebox{
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 0.2cm;
+	width:13.5cm;
+	z-index:5;
+}
+#FormPrint_main .name{
+	position: absolute;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: -0.6cm;
+	margin-left: 3cm;
+}
+#FormPrint_main .date{
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 0.4cm;
+
+	z-index:5;
+}
+
+#FormPrint_main .date-m{
+	position: absolute;
+	margin-top: -0.6cm;
+	margin-left: 6.8cm;
+	text-align:center;
+}
+#FormPrint_main .date-y{
+	position: absolute;
+	margin-top: -0.6cm;
+	margin-left: 12.1cm;
+	text-align:center;
+}
+
+#FormPrint_main .tablebox{
+	position:relative;
+	width:13.5cm;
+	margin-top: 0.2cm;
+	margin-right:auto;
+	margin-left:auto;
+	z-index:5;
+	/*border: medium solid #333;clear:both;*/
+}
+#FormPrint_main th{
+	text-align:center;
+	padding:3px;
+	font-size:16pt;
+}
+#FormPrint_main td{
+	padding:3px;
+	font-size:16pt;
+}
+
+#FormPrint_main .recivename-label{
+	margin-top: 1.2cm;
+	margin-left: 0.5cm;
+	text-align:center;
+	float:left;
+}
+#FormPrint_main .recivename{
+	margin-top: 1.2cm;
+	margin-left: 0.1cm;
+	text-align:center;
+	float:left;
+}
+#FormPrint_main .signature{
+	position: absolute;
+	padding:5px;
+	top: 19cm;
+	left: 9cm;
+	border: medium solid #333;clear:both;
+}
+#FormPrint_main .watermark{
+	position: absolute;
+	text-align:center;
+	top: 6cm;
+	left: 3.2cm;
+	z-index:1;
+}
+#FormPrint_main .copy{
+	position: absolute;
+	text-align:center;
+	top: 15cm;
+	left: 4.5cm;
+	z-index:10;
+	font-size:100pt;
+}
+.ViewReport_icon{
+	float:left;
+	left:10px;
+	position:absolute;
+}
+.ViewReport_name{
+	float:right; margin:10px; text-align:right;font-size:12pt;line-height:35pt;width:170px;
+}
+.ViewReport_num{
+	background-color:#F00;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:100px;
+	width:45px;
+	padding:0px;
+	position:absolute;
+	
+	left:205px;
+	text-align:center;
+}
+
+.capat_border{
+	padding:5px;
+	margin-left:10px;
+	border-radius:5px;
+	color:#333;
+	font-size:17px;
+	float:left;
+	width:97%;
+	border: thin solid #8A2FD5;
+}
+.capat_title1{
+	background-color:#09C;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:5px;
+	float:left;
+	border-radius:5px;
+	border: thin solid #09C;
+	font-size:24px;
+	position:relative;
+	width:100%;
+}
+.capat_title2{
+	background-color:#636;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:5px;
+	float:left;
+	border-radius:5px;
+	border: thin solid #636;
+	font-size:24px;
+	position:relative;
+	width:100%;
+}
+.capat_msg{
+	background-color:#666;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:5px;
+	float:left;
+	border-radius:5px;
+	border: thin solid #666;
+	font-size:16px;
+	position:relative;
+	width:100%;
+}
+
+
+
+
+
+.footer{
+	display:none;
+}
+.clear{
+	clear:both;
+}
+@media print
+{
+.footer {
+	display:inline;
+}
+.PrintButton{
+	display:none;
+}
+
+}
